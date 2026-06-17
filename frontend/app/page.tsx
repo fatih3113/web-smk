@@ -17,7 +17,8 @@ export default function HomePage() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  const heroBg = 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1920&q=80';
+  const heroBg = '/hero.jpg';
+  const ctaBg   = '/hero2.jpg'; 
   const navLinks = ['Profil', 'Jurusan', 'Berita', 'Galeri', 'Kontak'];
 
   const fasilitas = [
@@ -398,7 +399,7 @@ export default function HomePage() {
               {navLinks.map(m => (
                 <Link key={m} href={`/${m.toLowerCase()}`}>{m}</Link>
               ))}
-              <Link href="/ppdb" className="btn-ppdb">SPMB 2025</Link>
+              <Link href="/ppdb" className="btn-ppdb">SPMB 2026</Link>
               <Link href="/admin/login" className="btn-admin">🔐 Admin</Link>
             </div>
             <button className="mobile-toggle" onClick={() => setMenuOpen(!menuOpen)}>
@@ -429,7 +430,7 @@ export default function HomePage() {
           <div className="hero-content">
             <div className="badge-live">
               <span className="pulse" />
-              SPMB 2025/2026 Telah Dibuka
+              SPMB 2026/2027 Telah Dibuka
             </div>
             <h1 className="hero-title">
               SMK Farmasi<br />
@@ -552,7 +553,8 @@ export default function HomePage() {
 
         {/* CTA */}
         <section className="cta-section">
-          <div className="cta-bg" />
+          // BARU
+          <div className="cta-bg" style={{ backgroundImage: `url(${ctaBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
           <div className="cta-pattern" />
           <div className="cta-glow" />
           <div className="cta-content">
