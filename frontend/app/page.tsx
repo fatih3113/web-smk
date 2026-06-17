@@ -494,7 +494,7 @@ export default function HomePage() {
                 Keahlian di bidang kefarmasian, obat-obatan, dan pelayanan kesehatan berbasis standar BPOM & industri farmasi nasional.
               </p>
               <div className="jurusan-footer">
-                <span className="badge-akred">Akreditasi A</span>
+                <span className="badge-akred">Akreditasi BAIK</span>
                 <span className="jurusan-link-badge">Selengkapnya →</span>
               </div>
             </Link>
@@ -513,7 +513,7 @@ export default function HomePage() {
                 Instalasi, konfigurasi jaringan komputer, sistem operasi, dan keamanan jaringan berbasis standar industri IT modern.
               </p>
               <div className="jurusan-footer">
-                <span className="badge-akred">Akreditasi A</span>
+                <span className="badge-akred">Akreditasi BAIK</span>
                 <span className="jurusan-link-badge">Selengkapnya →</span>
               </div>
             </Link>

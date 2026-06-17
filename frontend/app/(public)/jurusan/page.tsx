@@ -25,7 +25,8 @@ export default function JurusanPage() {
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-2">
                 <h2 className="text-2xl font-extrabold">Farmasi</h2>
-                <span className="bg-purple-500/20 text-purple-300 text-xs font-bold px-3 py-1 rounded-full">Akreditasi A</span>
+                <span className="bg-purple-500/20 text-purple-300 text-xs font-bold px-3 py-1 rounded-full">Akreditasi BAIK
+                </span>
               </div>
               <p className="text-white/60 leading-relaxed mb-6">
                 Program keahlian Farmasi membekali siswa dengan pengetahuan dan keterampilan di bidang kefarmasian,
@@ -59,7 +60,7 @@ export default function JurusanPage() {
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-2">
                 <h2 className="text-2xl font-extrabold">Teknik Komputer & Jaringan</h2>
-                <span className="bg-blue-500/20 text-blue-300 text-xs font-bold px-3 py-1 rounded-full">Akreditasi A</span>
+                <span className="bg-blue-500/20 text-blue-300 text-xs font-bold px-3 py-1 rounded-full">Akreditasi BAIK</span>
               </div>
               <p className="text-white/60 leading-relaxed mb-6">
                 Program keahlian TKJ membekali siswa dengan kemampuan instalasi, konfigurasi, dan pemeliharaan
