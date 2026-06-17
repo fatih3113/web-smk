@@ -437,13 +437,13 @@ export default function HomePage() {
               Al Amin <span>Dukuhturi</span>
             </h1>
             <p className="hero-sub">
-              Cetak masa depan bersama kami. Pendaftaran gratis, bebas uang gedung, dan program beasiswa penuh untuk putra-putri terbaik.
+              Cetak masa depan bersama kami. Pendaftaran gratis, bebas uang gedung, dan program beasiswa penuh khusus yatim piatu & fakir miskin.
             </p>
             <div className="beasiswa-card">
               <span className="beasiswa-icon">🎓</span>
               <div>
                 <p className="beasiswa-title">Program Beasiswa Sekolah</p>
-                <p className="beasiswa-sub">Gratis Seragam · Gratis Daftar Ulang · Gratis SPP 3 Tahun*</p>
+                <p className="beasiswa-sub">Khusus Yatim Piatu & Fakir Miskin · Syarat & Ketentuan Berlaku</p>
               </div>
             </div>
             <div className="hero-cta">
@@ -560,7 +560,7 @@ export default function HomePage() {
           <div className="cta-content">
             <span className="cta-tag">Pendaftaran Terbuka</span>
             <h2 className="cta-title">Daftar Sekarang,<br />100% Gratis!</h2>
-            <p className="cta-desc">Bebas uang pendaftaran & uang gedung. Kuota terbatas, syarat & ketentuan berlaku.</p>
+            <p className="cta-desc">Bebas uang pendaftaran & uang gedung untuk semua. Beasiswa penuh khusus yatim piatu & fakir miskin.*</p>
             <p className="cta-phones">
               📞 0895-3578-24656 (Bu Rahma)<br />
               0821-3792-9140 (Bu Anis) · 0856-4042-6203 (Bu Salma)
