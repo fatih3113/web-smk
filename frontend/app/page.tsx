@@ -552,8 +552,7 @@ export default function HomePage() {
         </section>
 
         {/* CTA */}
-        <section className="cta-section">
-          // BARU
+        <section className="cta-section">           
           <div className="cta-bg" style={{ backgroundImage: `url(${ctaBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
           <div className="cta-pattern" />
           <div className="cta-glow" />
