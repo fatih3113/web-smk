@@ -3,8 +3,7 @@
     "frontend": {
       "root": "frontend",
       "routePrefix": "/",
-      "runtime": "@vercel/next",
-      "entrypoint": "package.json"
+      "framework": "next"
     },
     "backend": {
       "root": "backend",
